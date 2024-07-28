@@ -416,19 +416,21 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
     <script>
-      AOS.init();
-      // $(document).ready(function () {
-      //   $(".autoplay").slick({
-      //     slidesToShow: 1,
-      //     slidesToScroll: 1,
-      //     autoplay: true,
-      //     autoplaySpeed: 500,
-      //     dots: true,
-      //   });
-      // });
+      $(document).ready(function () {
+          $(".autoplay").slick({
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              autoplay: true,
+              autoplaySpeed: 500,
+              dots: true,
+            });
+            AOS.init();
+          });
 
       </script>
+        
    
   </body>
 </html>
